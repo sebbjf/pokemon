@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 24px 16px 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #222;
+}
+
+h1 {
+  margin: 0 0 16px;
+  font-size: 2rem;
+}
+
+.selector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.llista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  border: 1px solid #c3c3c3;
+  padding: 16px;
+}
+
+.card {
+  width: 140px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.card img {
+  width: 96px;
+  height: 96px;
+}
+
+.card h3 {
+  margin: 8px 0;
+  font-size: 1rem;
+}
+
+button {
+  padding: 4px 10px;
+  border: 1px solid #999;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+button:disabled {
+  color: #aaa;
+  cursor: default;
+}
+
+.paginacio {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+}
+
+.detall table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.detall th,
+.detall td {
+  padding: 8px;
+  border: 1px solid #999;
+}
+
+.detall th {
+  background-color: #f0f0f0;
+}
+
+#paginacio {
+  margin: 1rem;
+}

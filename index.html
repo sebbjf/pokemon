@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ca">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pokémon API</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <h1>Pokémon API</h1>
+
+    <div class="selector">
+      <label for="select-resultats">Numero de resultats</label>
+      <select id="select-resultats">
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="30">30</option>
+      </select>
+    </div>
+
+    <p class="error" id="missatge-error"></p>
+
+    <main class="llista" id="llista-pokemons"></main>
+
+    <nav id="paginacio">
+      <button type="button" id="prev">Prev</button>
+      <button type="button" id="next">Next</button>
+    </nav>
+  </body>
+</html>
